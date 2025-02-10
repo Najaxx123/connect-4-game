@@ -1,0 +1,70 @@
+body {
+    background-color:#7945FF;
+}
+
+.main-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-board {
+    position: relative;
+}
+
+.game-cell {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+}
+
+.game-cell[data-x="0"][data-y="0"] {
+    top: 18px;
+    left: 18px;
+}
+
+.game-cell[data-x="1"][data-y="0"] {
+    top: 18px;
+    left: 108px;
+}
+
+.game-cell[data-x="0"][data-y="1"] {
+    top: 108px;
+    left: 18px;
+}
+
+.game-cell[data-x="1"][data-y="1"] {
+    top: 108px;
+    left: 108px;
+}
+
+.game-cell[data-x="0"][data-y="2"] {
+    top: 192px;
+    left: 18px;
+}
+
+.game-cell[data-x="1"][data-y="2"] {
+    top: 192px;
+    left: 108px;
+}
+
+.game-cell[data-x="0"][data-y="3"] {
+    top: 280px;
+    left: 18px;
+}
+
+.game-cell[data-x="1"][data-y="3"] {
+    top: 280px;
+    left: 108px;
+}
+
+.game-cell[data-x="0"][data-y="4"] {
+    top: 368px;
+    left: 18px;
+}
+
+.game-cell[data-x="1"][data-y="4"] {
+    top: 368px;
+    left: 108px;
+}
