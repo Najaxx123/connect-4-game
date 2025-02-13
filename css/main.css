@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: var(--electric-violet);
+  background-color: var(--purple-heart);
 }
 
 .main-wrapper {
@@ -16,6 +16,17 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
+}
+
+.new-game {
+  background-color: var(--electric-violet);
+  padding: 16px;
+}
+
+.play-vs-player {
+  background-color: var(--golden-tanoi);
+  display: flex;
+  justify-content: space-between;
 }
 
 .game-board {
@@ -256,3 +267,4 @@ body {
   left: 548px;
   top: 460px;
 }
+
