@@ -21,10 +21,23 @@ body {
 .new-game {
   background-color: var(--electric-violet);
   padding: 16px;
+  padding-top: 160px;
+  border-radius: 8px;
+  border: solid black 3px;
 }
 
 .play-vs-player {
   background-color: var(--golden-tanoi);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 8px;
+  border: solid black 3px;
+}
+
+.play-vs-player-button {
+  background-color: var(--golden-tanoi);
+  border: none;
   display: flex;
   justify-content: space-between;
 }
